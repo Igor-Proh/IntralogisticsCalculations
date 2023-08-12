@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">IntralogisticsCalculations</string>
+
+
+    <string name="calc">Calculations</string>
+    <string name="calculate">Calculate</string>
+    <string name="back">Back</string>
+    <string name="belt_conveyor">Belt Conveyor</string>
+
+    <!-- Belt conveyor calculations-->
+    <string name="calc_belt_conveyor_length">Conveyor length</string>
+    <string name="calc_geometric_belt_length">Geometric Belt Length</string>
+    <string name="calc_belt_width">Belt Width</string>
+    <string name="calc_load_per_meter">Load per Meter of Conveyor</string>
+    <string name="calc_total_load">Total Load on the Conveyor</string>
+    <string name="calc_drive_drum_angle">Angle of Drive Drum Envelope</string>
+    <string name="calc_free_fall_acceleration">Free Fall Acceleration</string>
+    <string name="calc_support_roller_weight">Weight of a Support Roller</string>
+    <string name="calc_belt_speed">Belt Speed</string>
+    <string name="calc_rollers_weight">Weight of Rollers (excluding Drive Drum)</string>
+    <string name="calc_conveyor_inclination">Conveyor Inclination Angle</string>
+    <string name="calc_friction_coeff_table">Friction Coefficient on Table Support (µT)</string>
+    <string name="calc_friction_coeff_roller">Friction Coefficient on Roller</string>
+    <string name="calc_total_belt_weight">Total Belt Weight</string>
+    <string name="calc_belt_area_weight">Weight of 1m² of Belt (per belt specifications)</string>
+    <string name="calc_belt_width_2">Belt Width</string>
+    <string name="calc_factor_c1">Factor C1 (as per hint)</string>
+    <string name="calc_factor_c2">Factor C2 (calculated value)</string>
+    <string name="calc_factor_c3">Factor C3 (as per right table)</string>
+    <string name="calc_tabulated_value_sliver">Tabulated Value (as per Sliver Specifications)</string>
+    <string name="calc_tabulated_value_right">Tabulated Value (as per right table)</string>
+    <string name="calc_gearmotor_efficiency">Gearmotor Efficiency</string>
+
+    <string name="hint_belt_conveyor_length">lT</string>
+    <string name="hint_geometric_belt_length">Lg</string>
+    <string name="hint_belt_width">b0</string>
+    <string name="hint_load_per_meter">m0</string>
+    <string name="hint_total_load">m</string>
+    <string name="hint_drive_drum_angle">β</string>
+    <string name="hint_free_fall_acceleration">g</string>
+    <string name="hint_support_roller_weight">m1R</string>
+    <string name="hint_belt_speed">V</string>
+    <string name="hint_rollers_weight">mR</string>
+    <string name="hint_conveyor_inclination">α</string>
+    <string name="hint_friction_coeff_table">µT</string>
+    <string name="hint_friction_coeff_roller">µR</string>
+    <string name="hint_total_belt_weight">mB</string>
+    <string name="hint_belt_area_weight">WB</string>
+    <string name="hint_belt_width_2">b0</string>
+    <string name="hint_factor_c1">C1</string>
+    <string name="hint_factor_c2">С2</string>
+    <string name="hint_factor_c3">С3</string>
+    <string name="hint_tabulated_value_sliver">k1%</string>
+    <string name="hint_tabulated_value_right">εmax</string>
+    <string name="hint_gearmotor_efficiency">Ƞ</string>
+
+    <!-- Measurement values-->
+    <string name="meter">m</string>
+    <string name="meter_second">m/s</string>
+    <string name="meter_minute">m/min</string>
+    <string name="millimeter">mm</string>
+    <string name="kilogram">kg</string>
+    <string name="kilogram_meter">kg/m</string>
+    <string name="degree">°</string>
+    <string name="kg_m_2">kg/m²</string>
+    <string name="newton">N</string>
+    <string name="newton_millimeter">N/mm</string>
+    <string name="newton_meter">N/m</string>
+    <string name="watt">W</string>
+    <string name="rev_min">r/m</string>
+
+    <string name="gearbox_speed_on_output_shaft">Gearbox speed on output shaft	</string>
+    <string name="drive_shaft_diameter">Drive shaft diameter</string>
+    <string name="speed_of_conveyor">Speed of conveyor</string>
+    <string name="output_shaft_speed">Output shaft speed</string>
+    <string name="enter_drive_shaft_diameter_in_mm">Enter drive shaft diameter in mm</string>
+
+
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GearboxSpeedActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="243dp"
+        android:layout_height="211dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/gearbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="onClickCalculateGearbox"
+        android:text="@string/calculate"
+        app:layout_constraintEnd_toStartOf="@+id/btGbBack"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/btGbBack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBack"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/button4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvDriveShaftDiameter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/drive_shaft_diameter"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/etDriveShaftDiameter"
+        android:layout_width="114dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDriveShaftDiameter"
+        app:layout_constraintStart_toEndOf="@+id/tvDriveShaftDiameter"
+        app:layout_constraintTop_toTopOf="@+id/tvDriveShaftDiameter" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/millimeter"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/etDriveShaftDiameter"
+        app:layout_constraintStart_toEndOf="@+id/etDriveShaftDiameter"
+        app:layout_constraintTop_toTopOf="@+id/etDriveShaftDiameter" />
+
+    <TextView
+        android:id="@+id/tvSpeedOfConveyor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/speed_of_conveyor"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvDriveShaftDiameter"
+        app:layout_constraintStart_toStartOf="@+id/tvDriveShaftDiameter"
+        app:layout_constraintTop_toBottomOf="@+id/tvDriveShaftDiameter" />
+
+    <EditText
+        android:id="@+id/etSpeedOfConveyor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/etDriveShaftDiameter"
+        app:layout_constraintStart_toStartOf="@+id/etDriveShaftDiameter"
+        app:layout_constraintTop_toBottomOf="@+id/etDriveShaftDiameter" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/meter_second"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/etSpeedOfConveyor"
+        app:layout_constraintStart_toEndOf="@+id/etSpeedOfConveyor"
+        app:layout_constraintTop_toBottomOf="@+id/etDriveShaftDiameter" />
+
+    <TextView
+        android:id="@+id/tvSpeedOfConveyorMMin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="0"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/etSpeedOfConveyor"
+        app:layout_constraintStart_toStartOf="@+id/etSpeedOfConveyor"
+        app:layout_constraintTop_toBottomOf="@+id/etSpeedOfConveyor" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/meter_minute"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvSpeedOfConveyorMMin"
+        app:layout_constraintStart_toEndOf="@+id/tvSpeedOfConveyorMMin"
+        app:layout_constraintTop_toTopOf="@+id/tvSpeedOfConveyorMMin" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/output_shaft_speed"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvOutputShaftSpeed"
+        app:layout_constraintEnd_toEndOf="@+id/tvSpeedOfConveyor"
+        app:layout_constraintStart_toStartOf="@+id/tvSpeedOfConveyor"
+        app:layout_constraintTop_toTopOf="@+id/tvOutputShaftSpeed" />
+
+    <TextView
+        android:id="@+id/tvOutputShaftSpeed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvSpeedOfConveyorMMin"
+        app:layout_constraintStart_toStartOf="@+id/tvSpeedOfConveyorMMin"
+        app:layout_constraintTop_toBottomOf="@+id/tvSpeedOfConveyorMMin" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/rev_min"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvOutputShaftSpeed"
+        app:layout_constraintStart_toEndOf="@+id/tvOutputShaftSpeed"
+        app:layout_constraintTop_toTopOf="@+id/tvOutputShaftSpeed" />
+</androidx.constraintlayout.widget.ConstraintLayout>
