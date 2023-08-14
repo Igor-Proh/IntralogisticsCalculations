@@ -74,6 +74,19 @@
     <string name="speed_of_conveyor">Speed of conveyor</string>
     <string name="output_shaft_speed">Output shaft speed</string>
     <string name="enter_drive_shaft_diameter_in_mm">Enter drive shaft diameter in mm</string>
+    <string name="drive_drum_cylinder">Drive drum cylinder</string>
+
+    <!-- For Calculate Drive Drum Cylinder-->
+
+    <string name="hint_drive_drum_length">b</string>
+    <string name="hint_drive_drum_diameter">de</string>
+    <string name="drive_drum_length">Drive drum length</string>
+    <string name="drive_drum_diameter">Drive drum diameter</string>
+    <string name="drive_drum_taper_size">Cone size (e)</string>
+    <string name="drive_drum_taper_size_min">Cone size min (e min)</string>
+    <string name="drive_drum_taper_size_max">Cone size max (e max)</string>
+    <string name="drive_drum_cylindrical_section">Сylindrical section (bc)</string>
+
 
 
 </resources>

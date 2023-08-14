@@ -42,7 +42,7 @@
         app:srcCompat="@drawable/hor" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btGearboxSpeedOnOutputShaft"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -51,5 +51,16 @@
         app:layout_constraintEnd_toEndOf="@+id/btBeltConveyorCalculation"
         app:layout_constraintStart_toStartOf="@+id/btBeltConveyorCalculation"
         app:layout_constraintTop_toBottomOf="@+id/btBeltConveyorCalculation" />
+
+    <Button
+        android:id="@+id/btDriveDrumCylinder"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="onClickDriveDrumCylinder"
+        android:text="@string/drive_drum_cylinder"
+        app:layout_constraintEnd_toEndOf="@+id/btGearboxSpeedOnOutputShaft"
+        app:layout_constraintStart_toStartOf="@+id/btGearboxSpeedOnOutputShaft"
+        app:layout_constraintTop_toBottomOf="@+id/btGearboxSpeedOnOutputShaft" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
