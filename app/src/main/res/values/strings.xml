@@ -80,8 +80,8 @@
 
     <string name="hint_drive_drum_length">b</string>
     <string name="hint_drive_drum_diameter">de</string>
-    <string name="drive_drum_length">Drive drum length</string>
-    <string name="drive_drum_diameter">Drive drum diameter</string>
+    <string name="drive_drum_length">Drive drum length (b)</string>
+    <string name="drive_drum_diameter">Drive drum diameter (de)</string>
     <string name="drive_drum_taper_size">Cone size (e)</string>
     <string name="drive_drum_taper_size_min">Cone size min (e min)</string>
     <string name="drive_drum_taper_size_max">Cone size max (e max)</string>

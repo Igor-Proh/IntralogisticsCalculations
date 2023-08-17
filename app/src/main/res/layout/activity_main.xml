@@ -19,6 +19,7 @@
 
     <Button
         android:id="@+id/btBeltConveyorCalculation"
+        style="@style/Widget.Material3.Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -29,7 +30,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="UsingOnClickInXml,VisualLintButtonSize" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -39,10 +41,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hor" />
+        app:srcCompat="@drawable/hor"
+        android:importantForAccessibility="no" />
 
     <Button
         android:id="@+id/btGearboxSpeedOnOutputShaft"
+        style="@style/Widget.Material3.Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -50,7 +54,8 @@
         android:text="@string/gearbox_speed_on_output_shaft"
         app:layout_constraintEnd_toEndOf="@+id/btBeltConveyorCalculation"
         app:layout_constraintStart_toStartOf="@+id/btBeltConveyorCalculation"
-        app:layout_constraintTop_toBottomOf="@+id/btBeltConveyorCalculation" />
+        app:layout_constraintTop_toBottomOf="@+id/btBeltConveyorCalculation"
+        tools:ignore="UsingOnClickInXml,VisualLintButtonSize" />
 
     <Button
         android:id="@+id/btDriveDrumCylinder"
@@ -61,6 +66,7 @@
         android:text="@string/drive_drum_cylinder"
         app:layout_constraintEnd_toEndOf="@+id/btGearboxSpeedOnOutputShaft"
         app:layout_constraintStart_toStartOf="@+id/btGearboxSpeedOnOutputShaft"
-        app:layout_constraintTop_toBottomOf="@+id/btGearboxSpeedOnOutputShaft" />
+        app:layout_constraintTop_toBottomOf="@+id/btGearboxSpeedOnOutputShaft"
+        tools:ignore="UsingOnClickInXml,VisualLintButtonSize" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
